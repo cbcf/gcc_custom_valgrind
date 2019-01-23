@@ -1,4 +1,4 @@
 FROM gcc:8
 
-RUN apt-get update && apt-get install -y valgrind
+RUN apt-get update && apt-get install -y valgrind clang 
 
